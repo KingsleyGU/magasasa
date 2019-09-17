@@ -58,6 +58,10 @@ h6,.shop-name {
   section {
     padding: 150px 0;
   }
+  .guide-choice {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 ::-moz-selection {
@@ -253,7 +257,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 .service-heading {
-  margin: 15px 0;
   text-transform: none;
 }
 

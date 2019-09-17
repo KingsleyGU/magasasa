@@ -36,7 +36,7 @@ require("api/get_food_item.php");
              $category = "web";
            }  
         ?>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-<?php echo $category;?>" style="padding: 15px; margin: 0px;">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-<?php echo $category;?>" style="padding: 15px; margin: 0px;">
             <a class="portfolio-link animatable bounceIn" data-toggle="modal" href="#portfolioModal<?php echo $foodItem->id;?>">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">

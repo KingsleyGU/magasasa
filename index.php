@@ -19,30 +19,35 @@
   <section class="page-section" id="services" style="padding: 0px;">
   <div class="container-fluid px-0">
       <div class="row text-center">
-        <div class="col-md-4 guide-choice guide-choice-classy animatable bounceInLeft">
+        <div class="col-md-3 col-sm-6 guide-choice guide-choice-classy animatable bounceInLeft">
           <a href="index.php#portfolio">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary text-home-main"></i>
-            <i class="fas fa-heart fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-heart fa-inverse"></i>
           </span></a>
           <h4 class="service-heading">经典菜式</h4>
         </div>
-        <div class="col-md-4 guide-choice guide-choice-reserve animatable bounceIn">
+        <div class="col-md-3 col-sm-6 guide-choice guide-choice-reserve animatable bounceIn">
         <a href="#info">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-calendar-check fa-stack-1x fa-inverse"></i>
+            
+            <i class="fas fa-calendar-check fa-inverse"></i>
           </span></a>
           <h4 class="service-heading">预定</h4>
         </div>
-        <div class="col-md-4 guide-choice guide-choice-culture animatable bounceInRight">
+        <div class="col-md-3 col-sm-6  guide-choice guide-choice-culture animatable bounceIn">
           <a href="tradition.php">
           <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary text-home-main"></i>
-            <i class="fas fa-fish fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-fish fa-inverse"></i>
           </span></a>
           <h4 class="service-heading">了解中餐文化</h4>
-        </div>         
+        </div>   
+        <div class="col-md-3 col-sm-6  guide-choice guide-choice-discount animatable bounceInRight">
+          <a href="tradition.php">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-search-dollar fa-inverse"></i>
+          </span></a>
+          <h4 class="service-heading">优惠时段</h4>
+        </div>        
       </div>
     </div>
   </section>

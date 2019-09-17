@@ -112,8 +112,8 @@ text-align: center;
     border: none;
     border-bottom: 2px solid #fff;
     border-radius: 0px;
-    padding-left: 20px;
     width: 100%;
+    color: #fff;
 }
 .ftco-footer-widget .open-hours li span {
     width: 100%;
@@ -264,29 +264,27 @@ h1 {
   }
 }
 .guide-choice{
-  padding-top: 100px;
-  padding-bottom: 100px;
   color: #fff;
+  padding-bottom: 25px;
+  padding-top: 15px;
 }
 .guide-choice-classy{
   background-color: #FF8C00;
 }
-.guide-choice-classy .fa-inverse{
-  color: #FF8C00 !important;
-}
+
 
 .guide-choice-culture{
   background-color: #be0000;
 }
-.guide-choice-culture .fa-inverse{
-  color: #be0000 !important;
-}
+
 .guide-choice-reserve{
   background-color: #6B8E23;
 }
-.guide-choice-reserve .fa-inverse{
-  color: #6B8E23 !important;
+
+.guide-choice-discount{
+  background-color: #9933CC;
 }
+
 .info-address{
   background-color: #6B8E23;
   color: #fff;
@@ -914,7 +912,22 @@ padding:60px 40px !important;
   text-align: center;
   font-size: 20px;
 }
-
+.fa-stack{
+  height: 1.8em !important;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
 </style>
 </head>
 

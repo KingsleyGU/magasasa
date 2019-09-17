@@ -66,8 +66,8 @@
           <div class="heading-section mb-5 animatable bounceIn">
             <h2 class="mb-4">Address</h2>
           </div>
-          <div class="embed-responsive embed-responsive-16by9 animatable bounceIn" style="border: 4px solid #fff;">
-          <iframe class="embed-responsive-item " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.7612785780457!2d10.379067450948767!3d55.39707072674371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cdffa301d4499%3A0xe40e69dd8a328d1e!2sKongensgade+41%2C+5000+Odense!5e0!3m2!1sen!2sdk!4v1551021237881" frameborder="0" style="border:0; width: 100%; height:auto; min-height: 600px;" allowfullscreen></iframe>
+          <div id="map-container-google-1" class="z-depth-1-half map-container" style="min-height: 300px">
+           <iframe class="embed-responsive-item " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2265.7612785780457!2d10.379067450948767!3d55.39707072674371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464cdffa301d4499%3A0xe40e69dd8a328d1e!2sKongensgade+41%2C+5000+Odense!5e0!3m2!1sen!2sdk!4v1551021237881" frameborder="0" style="border:0; width: 100%; height:auto; min-height: 600px;" allowfullscreen allowfullscreen></iframe>
           </div>
       </div> 
 
