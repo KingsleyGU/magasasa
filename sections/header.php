@@ -48,7 +48,6 @@ else
   <link href="css/agency.css" rel="stylesheet">
   <link href="css/customized.css" rel="stylesheet">
   <link href="css/form.css" rel="stylesheet">
-  <link href="css/carousel.css" rel="stylesheet">
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
 
