@@ -2,72 +2,265 @@
 require("api/getCombo.php");
 ?>
 
-    <section class="mb-0" id="takeaway">
-      <div class="container">
-        <h2 class="text-center text-uppercase text- mb-0">Take-Away</h2><br><br>
-<!--        <hr class="star-light mb-5 hama-color"> -->
-        <div class="row">
-          <div class="col-lg-12 mx-auto" style="text-align: center;">
-            <div class="takeaway-notice">
-            	Ring til us and get 10% discount
-            </div>
-            <div class="takeaway-notice">
-            
-              
-            </div>  
-            <div >
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <?php 
+  <header class="masthead tradition-masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-heading text-uppercase">通过美食了解中国文化</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#tradition" style="position:relative; z-index: 2;">Learn More</a>
+               <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+      </div>
+    </div>
 
-                  foreach ($comboNameArray as $key => $value) {
-                    
-                ?>
-                  <li data-target="#myCarousel" data-slide-to="<?php echo $key;?>" class="<?php if($key ==0 )echo 'active';?>"></li>
-                <?php 
-                  }
 
-                ?>
-              </ol>
-              <div class="carousel-inner" style="padding: 0px;">
-                <?php 
+  </header>
 
-                  foreach ($comboUrlArray as $key => $value) {
-                    
-                ?>
-                <div class="carousel-item <?php if($key ==0 )echo 'active';?>">
 
-                  <div class="container">
-                    <div class="carousel-caption" style="padding-top:0px; margin-top: -30px;">
-                      <h3 class="text-uppercase" style="color:#ffffff;"><?php echo $comboNameArray[$key];?></h3>
+  <div class="container my-4">
 
-                      <div class="">
-                        <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-<?php echo $key;?>">
 
-                          <img class="rounded img-fluid img-thumbnail image-menu" src="img/takeaway/<?php echo $value;?>" alt="...">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+    <hr class="my-4">
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
                 </div>
-
-                <?php 
-                  }
-
-                ?>
-
               </div>
-              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">     
-                <i class=" fa fa-angle-left fa-5x"></i>
-              </a>
-              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <i class=" fa fa-angle-right fa-5x"></i>
-              </a>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                  <a class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Third slide-->
+
       </div>
-    </section>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+  </div>
+
+
+
+
+
+<?php echo json_encode($comboNameArray); ?>
+  <section class="about-section page-section" id="about">
+        <div class="container">
+          <div class="row">
+<!--Carousel Wrapper-->
+<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+      <?php 
+      foreach ($comboUrlArray as $key => $value) {       
+    ?>  
+    <li data-target="#carousel-example-1z" data-slide-to="<?php echo $key;?>" class="<?php if($key==0) echo 'active';?>"></li>
+     <?php 
+      }
+
+    ?> 
+  </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+      <?php 
+      foreach ($comboUrlArray as $key => $value) {       
+    ?>    <!--First slide-->
+    <div class="carousel-item <?php if($key==0) echo 'active';?>">
+      <div class="view">
+        <img class="d-block w-100" src="img/single/<?php echo ($key+1).'.jpeg';?>"
+        alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <p><?php echo $comboNameArray[$key];?></p>
+      </div>
+    </div>
+    <!--/First slide-->
+    <?php 
+      }
+    ?>  
+    <!--/Third slide-->
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+
+
 
 
       <?php 
@@ -99,6 +292,8 @@ require("api/getCombo.php");
 
       ?>
 
-
+</div>
+</div>
+</section>
 
 <?php include 'sections/footer.php';?>
